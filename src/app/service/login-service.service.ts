@@ -10,6 +10,7 @@ export class LoginServiceService {
   constructor(public http:HttpClient) { }
 
   public login(form:any){
+    console.log(this.url)
     return this.http.post(this.url+'Session/login',form);
   }
 }
