@@ -1,0 +1,32 @@
+.avatar {
+  display: inline-flex;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+.avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.avatar.avatar-lg .avatar-content, .avatar.avatar-lg img {
+  width: 48px;
+  height: 48px;
+  font-size: 1.2rem;
+}
+.avatar .avatar-content {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .875rem;
+}
+.conborderasds .inter{
+  border-bottom: #cecece solid 1px;
+}
+.conborderasds:last-child{
+  border-bottom: none;
+}
