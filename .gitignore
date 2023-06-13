@@ -43,3 +43,4 @@ Thumbs.db
 *.sqlite
 *.json
 *.wsuo
+*.vsidx
